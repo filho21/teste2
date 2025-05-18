@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.video-container {
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    border: 2px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+.result-container {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+#result {
+    font-weight: bold;
+    color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#startScan {
+    background-color: #28a745;
+    color: white;
+}
+
+#stopScan {
+    background-color: #dc3545;
+    color: white;
+}
